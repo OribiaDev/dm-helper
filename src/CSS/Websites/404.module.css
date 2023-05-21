@@ -38,3 +38,12 @@
   background-color: transparent;
   transition: 0.1s;
 }
+
+/* Media Query Phones */
+@media only screen and (max-device-width: 421px) {
+  .four04link{
+    margin-left: 25%;
+  }  
+}
+
+

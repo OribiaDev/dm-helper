@@ -1,5 +1,5 @@
 .topInfoTitle{
-    margin-top: 90px;
+    margin-top: 50px;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
@@ -9,7 +9,90 @@
 
 .version{
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
     font-family: 'Poppins', sans-serif;
     cursor: default;
+}
+
+.author{
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+}
+
+.author a:link {
+    color:  rgb(211, 223, 255);
+    background-color: transparent;
+    text-decoration: none;
+    width: fit-content;
+  }  
+
+  .author a:hover {
+    color:  rgb(220, 183, 219);
+    background-color: transparent;
+    transition: 0.1s;
+  }
+
+  .author a:visited {
+  color:  rgb(211, 223, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.author a:visited:hover {
+  color:  rgb(220, 183, 219);
+  background-color: transparent;
+  transition: 0.1s;
+}
+
+
+
+
+/* Platform Optimizations */
+
+/* Media Query Phones */
+@media only screen and (max-device-width: 421px) {
+    .topInfoTitle{
+        font-size: 30px;
+    }
+    .version{
+        font-size: 23px;
+    }
+    .author{
+        font-size: 25px;
+    }
+}
+
+/* Media Query Extra Smaller Phones */
+@media only screen and (max-device-height: 635px) {
+    .topInfoTitle{
+        font-size: 27px;
+    }
+    .author{
+        font-size: 23px;
+    }
+    .version{
+        font-size: 20px;
+    }
+}
+
+/* Media Query Fold Narrow */
+@media only screen and (max-device-width: 300px) {
+    .topInfoTitle{
+        font-size: 25px;
+    }
+    .version{
+        font-size: 20px;
+    }
+}
+
+/* Media Query Fold Wide */
+@media only screen and (min-device-width: 700px) and (max-device-height: 520px) {
+    .topInfoTitle{
+        font-size: 40px;
+    }
+    .version{
+        font-size: 26px;
+    }
 }

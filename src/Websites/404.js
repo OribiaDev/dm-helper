@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 //CSS
 import Four04 from '../CSS/Websites/404.module.css'
 
+//Modules
+import Footer from './Componets/Footer'
+
 const four04 = () => {
     return ( 
         <><Helmet>
@@ -17,7 +20,37 @@ const four04 = () => {
             <div className={Four04.four04title}>404</div>
             <div className={Four04.four04subTitle}>Page Not Found</div>
             <Link className={Four04.four04link} to='/'>Click to go home</Link>
-        </div></>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <Footer />
+        </>
      );
 }
  

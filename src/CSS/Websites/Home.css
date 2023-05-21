@@ -20,3 +20,44 @@ hr {
     padding: 0;
     width: 15%;
 }
+
+/* Platform Optimizations */
+
+/* Media Query Phones */
+@media only screen and (max-device-width: 421px) {
+    /* Line */
+    hr {
+        width:85%;
+    }
+
+    /* Small Line */
+    .smallhr hr {
+        width: 65%;
+    }
+}
+
+/* Media Query Extra Smaller Phones */
+@media only screen and (max-device-height: 635px) {
+    /* Line */
+    hr {
+        width:85%;
+    }
+
+    /* Small Line */
+    .smallhr hr {
+        width: 65%;
+    }
+}
+
+/* Media Query Fold Wide */
+@media only screen and (min-device-width: 700px) and (max-device-height: 520px) {
+    /* Line */
+    hr {
+        width:70%;
+    }
+
+    /* Small Line */
+    .smallhr hr {
+        width: 35%;
+    }
+}

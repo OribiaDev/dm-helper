@@ -1,0 +1,10 @@
+hr{
+    display: block;
+    height: 5px;
+    border: 0;
+    border-top: 2px solid #ffffff;
+    margin: auto;
+    padding: 0;
+    width: 25%;
+    margin-top: 20px;
+} 

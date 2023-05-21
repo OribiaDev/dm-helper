@@ -42,3 +42,49 @@
   background-color: transparent;
   transition: 0.1s;
 }
+
+
+/* Platform Optimizations */
+/* Media Query Phones */
+@media only screen and (max-device-width: 421px) {
+    /* Footer */
+    .footer{
+    padding: 0px;
+    }
+    .footer p {
+    font-size: 15px;
+  }
+ }
+ 
+ /* Media Query Extra Smaller Phones */
+ @media only screen and (max-device-height: 635px) {
+    /* Footer */
+    .footer{
+    padding: 0px;
+    }
+    .footer p {
+    font-size: 13px;
+  }
+ }
+
+/* Media Query Fold Narrow */
+@media only screen and (max-device-width: 300px) {
+    /* Footer */
+    .footer{
+      padding: 0px;
+      }
+      .footer p {
+      font-size: 13px;
+    }
+}
+
+/* Media Query Fold Wide */
+@media only screen and (max-device-width: 750px) and (max-device-height: 520px) {
+    /* Footer */
+    .footer{
+      padding: 0px;
+      }
+      .footer p {
+      font-size: 14.5px;
+    }
+}

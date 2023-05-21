@@ -18,6 +18,7 @@ form{
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
     width: 430px;
+    cursor: default;
 }
 
 .FormQuestions{
@@ -28,7 +29,6 @@ form{
 input[type='radio'] { 
     transform: scale(1.2);
     cursor: pointer;
-    margin-bottom: 22px;
 }
 
 html {
@@ -38,4 +38,94 @@ html {
 body::-webkit-scrollbar {
     background-color: transparent;
     display: none;
+}
+
+
+/* Platform Optimizations */
+
+/* Media Query For Laptops */
+@media only screen and (max-width: 1700px) and (min-height: 850px){
+    .yesOrNo{
+        margin-left: 26%;
+    }
+    
+}   
+
+@media only screen and (max-width: 1300px) and (min-height: 850px){
+    .yesOrNo{
+        margin-left: 28%;
+    }
+}   
+
+@media only screen and (max-width: 1200px) and (min-height: 850px){
+    .yesOrNo{
+        margin-left: 27.5%;
+    }
+}  
+
+/* Media Query Phones */
+@media only screen and (max-device-width: 380px) {
+    .yesOrNo{
+        margin-left: 16.5%;
+    }
+    .questionTitle{
+        font-size: 15.5px;
+    }
+    .FormQuestions{
+        margin-left: 10%;
+    }
+
+}
+
+@media only screen and (min-device-width: 380px) and (max-device-height: 500px){
+    .yesOrNo{
+        margin-left: 15%;
+    }
+}
+
+
+/* Media Query Extra Smaller Phones */
+@media only screen and (max-device-height: 635px) {
+    .yesOrNo{
+        margin-left: 0.5%;
+        font-size: 13px;
+    }
+    .questionTitle{
+        font-size: 14.5px;
+    }
+    .FormQuestions{
+        margin-left: 10%;
+    }
+
+}
+
+/* Media Query Fold Narrow */
+@media only screen and (max-device-width: 300px) {
+    .yesOrNo{
+        margin-left: 0%;
+        font-size: 14px;
+    }
+    .questionTitle{
+        font-size: 14.5px;
+    }
+    .FormQuestions{
+        margin-left: 10%;
+    }
+}
+
+/* Media Query Fold Wide */
+@media only screen and (min-device-width: 700px) and (max-device-height: 520px) {
+    .yesOrNo{
+        margin-left: 41.8%;
+        font-size: 15px;
+    }
+    .questionTitle{
+        font-size: 19px;
+    }
+    .FormQuestions{
+        margin-left: 15%;
+    }
+    input[type='radio'] { 
+        transform: scale(1.3);
+    }
 }

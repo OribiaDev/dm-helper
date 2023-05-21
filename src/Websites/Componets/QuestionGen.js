@@ -17,6 +17,7 @@ const QuestionGen = ({question, ClickHandlerYes, ClickHandlerNo}) => {
                             </label>
                         </div>
                     </form> 
+                    <br />
                 </div>
             ))}
         </div>
