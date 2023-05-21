@@ -5,10 +5,7 @@
 
 ## Description
 
-AutoZone DM-Helper is a simple react website made for AutoZone District Managers that generates an email based on a checklist of store procedures.
-
-## Notes:
-The website is currently in development and is not currently completed, there will be bugs.
+AutoZone DM-Helper is a simple react website made for AutoZone District Managers that generates an email based on a checklist of store procedures during a store visit.
 
 ## Getting Started
 
