@@ -1,8 +1,8 @@
 {
   "name": "dm-helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
-  "homepage": "https://oribiadev.github.io/dm-helper",
+  "homepage": "https://dm-helper.oribia.dev/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

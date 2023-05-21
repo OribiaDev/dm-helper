@@ -69,7 +69,7 @@ body::-webkit-scrollbar {
         margin-left: 16.5%;
     }
     .questionTitle{
-        font-size: 15.5px;
+        font-size: 14.5px;
     }
     .FormQuestions{
         margin-left: 10%;
@@ -77,9 +77,15 @@ body::-webkit-scrollbar {
 
 }
 
-@media only screen and (min-device-width: 380px) and (max-device-height: 500px){
+@media only screen and (min-device-width: 380px) and (max-device-height: 950px){
     .yesOrNo{
-        margin-left: 15%;
+        margin-left: 27.2%;
+    }
+    .questionTitle{
+        font-size: 15.5px;
+    }
+    .FormQuestions{
+        margin-left: 10%;
     }
 }
 
@@ -106,7 +112,7 @@ body::-webkit-scrollbar {
         font-size: 14px;
     }
     .questionTitle{
-        font-size: 14.5px;
+        font-size: 13.5px;
     }
     .FormQuestions{
         margin-left: 10%;

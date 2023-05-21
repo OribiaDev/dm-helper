@@ -416,8 +416,8 @@ const MainComponet = () => {
                 <div className="EmailGenTitle">Email Generation</div>
                 <div className="smallhr"><hr /></div>
                 <div className="EmailGenNotice">
-                    <div className="EmailGenNoticeText">
-                        *Please Note that when you click the button below, DM-Helper will attempt to generate the email by copying the body of the email into your clipboard, please allow this permission. It will then open your default email app with everything except the body automatically filled in. Then paste in the body in the body of the email.
+                    <div className="EmailGenNoticeText">             
+                    When you click the button below, DM-Helper will generate an email for you. To do this, it will copy the email's body to your clipboard. Please grant permission for this action. Once copied, it will open your default email app with all fields pre-filled, except for the body. Simply paste the copied content into the email body.
                     </div>
                 </div>
                 <button onClick={generateEmailHandleClick}> Generate Email </button>
