@@ -1,0 +1,40 @@
+.four04title{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 6%;
+}
+
+.four04subTitle{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.four04link{
+    color:  rgb(195, 211, 252);
+    background-color: transparent;
+    text-decoration: none;
+    width: fit-content;
+    margin-left: 45%;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+  }  
+
+  .four04link:hover {
+    color:  rgb(218, 158, 216);
+    background-color: transparent;
+    transition: 0.1s;
+  }
+
+  .four04link:visited {
+  color:  rgb(195, 211, 252);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.four04link:visited:hover {
+  color:  rgb(218, 158, 216);
+  background-color: transparent;
+  transition: 0.1s;
+}

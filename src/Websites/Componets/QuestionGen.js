@@ -1,8 +1,4 @@
-import { useState } from "react";
-
 const QuestionGen = ({question, ClickHandlerYes, ClickHandlerNo}) => {
-
-
 
     return ( 
         <div className="outsideQuestions">
