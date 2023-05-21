@@ -1,0 +1,15 @@
+.topInfoTitle{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+}
+
+.version{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+}
