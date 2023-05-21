@@ -1,6 +1,6 @@
 <p align="center">
  <h2 align="center">AutoZone DM-Helper</h2>
- <p align="center">An AutoZone District Manager store checklist email generator. </p>
+ <p align="center">An AutoZone District Manager store visit checklist email generator. </p>
 </p>
 
 ## Description
