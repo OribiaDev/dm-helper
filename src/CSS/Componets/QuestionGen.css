@@ -79,7 +79,7 @@ body::-webkit-scrollbar {
 
 @media only screen and (min-device-width: 380px) and (max-device-height: 950px){
     .yesOrNo{
-        margin-left: 27.2%;
+        margin-left: 23.5%;
     }
     .questionTitle{
         font-size: 15.5px;
@@ -119,10 +119,27 @@ body::-webkit-scrollbar {
     }
 }
 
-/* Media Query Fold Wide */
+/* Media Query Fold Wide Weird Angle*/
 @media only screen and (min-device-width: 700px) and (max-device-height: 520px) {
     .yesOrNo{
         margin-left: 41.8%;
+        font-size: 15px;
+    }
+    .questionTitle{
+        font-size: 19px;
+    }
+    .FormQuestions{
+        margin-left: 15%;
+    }
+    input[type='radio'] { 
+        transform: scale(1.3);
+    }
+}
+
+/* Media Query Fold Wide Good Angle */
+@media only screen and (min-device-width: 500px) and (max-device-height: 720px) {
+    .yesOrNo{
+        margin-left: 30%;
         font-size: 15px;
     }
     .questionTitle{

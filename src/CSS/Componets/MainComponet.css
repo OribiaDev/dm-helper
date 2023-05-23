@@ -268,6 +268,22 @@ button:hover{
     }
 }
 
+/* Media Query Fold Wide Good Angle */
+@media only screen and (min-device-width: 500px) and (max-device-height: 720px) {
+    .SectionTitle{
+        width: 240px;
+    }
+    .QuestionContent{
+        margin-left: 9%;
+    }
+    button{
+        margin-left: 30.5%;  
+    }
+    .EmailGenNotice{
+        width: 65%;
+    }
+}
+
 
 
 
