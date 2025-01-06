@@ -1,6 +1,6 @@
 const Footer = () => {
-    const copyrightyear = '2024';
-    const version = 'v1.1.0';
+    const copyrightyear = '2025';
+    const version = 'v1.1.1';
 
 
     return ( 
